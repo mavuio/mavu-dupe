@@ -16,7 +16,7 @@ i had the need to duplicate Phoenix-Liveview-Components, which consist often of 
 
 <div>&nbsp;</div
  
- ![Screencast](images/screencast.gif)
+ ![Screencast](https://raw.githubusercontent.com/mavuio/mavu-dupe/main/images/screencast.gif)
 
 ### Credits
 
