@@ -9,7 +9,7 @@
 		"type": "git",
 		"url": "https://github.com/mavuio/mavu-dupe.git"
 	},
-	"publisher": "mavuio",
+	"publisher": "mavu-io",
 	"engines": {
 		"vscode": "^1.54.0"
 	},
