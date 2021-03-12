@@ -17,7 +17,7 @@
 	"contributes": {
 		"commands": [{
 			"command": "mavu-dupe.startDuplicate",
-			"title": "Duplicate and Rename Multiple Files [MavuDupe]"
+			"title": "Duplicate and Rename Multiple Files [mavu-dupe]"
 
 		}],
 		"menus": {
