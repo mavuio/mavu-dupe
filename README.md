@@ -14,7 +14,7 @@ i had the need to duplicate Phoenix-Liveview-Components, which consist often of 
 
 ### Example renaming 3 files: 
 
-<div>&nbsp;</div
+<div>&nbsp;</div>
  
  ![Screencast](https://raw.githubusercontent.com/mavuio/mavu-dupe/main/images/screencast.gif)
 
