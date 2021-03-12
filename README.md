@@ -15,11 +15,13 @@ so i made this version by changing some lines of code in the Extension "Batch Re
 * Edit the file names in the editor
 * Hit Save to confirm
 
+### Example renaming 3 files: 
 
-\!\[screencast\]\(images/screencast.gif\)
-
+<div>&nbsp;</div
+ 
+ ![Screencast](images/screencast.gif)
 
 
 ### 1.0.0
 
-Initial release 
+Initial release  - Manfred Wuits 2021  
