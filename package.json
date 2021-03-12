@@ -1,0 +1,61 @@
+{
+	"name": "mavu-dupe",
+	"displayName": "MavuDupe - Duplicate and Rename Multiple Files",
+	"description": "select multiple files, define new names for them in a text-editor and duplicate them",
+	"version": "0.0.1",
+	"publisher": "mavu.io",
+	"engines": {
+		"vscode": "^1.34.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:mavu-dupe.startDuplicate"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [{
+			"command": "mavu-dupe.startDuplicate",
+			"title": "Duplicate and Rename Multiple Files [MavuDupe]"
+
+		}],
+		"menus": {
+			"explorer/context": [{
+				"when": "!explorerResourceIsFolder",
+				"group": "7_modification",
+				"command": "mavu-dupe.startDuplicate"
+			}]
+		}
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "yarn run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"dependencies": {
+		"opn": "^5.2.0",
+		"path": "^0.12.7"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.54.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.4",
+		"@types/node": "^12.11.7",
+		"eslint": "^7.19.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.2.1",
+		"typescript": "^4.1.3",
+		"vscode-test": "^1.5.0"
+	},
+	"license": "MIT",
+	"keywords": [
+		"duplicate",
+		"files",
+		"rename",
+		"multiple",
+		"extension",
+		"vscode"
+	]
+
+}
