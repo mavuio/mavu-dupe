@@ -2,7 +2,7 @@
 	"name": "mavu-dupe",
 	"displayName": "MavuDupe - Duplicate and Rename Multiple Files",
 	"description": "select multiple files, define new names for them in a text-editor and duplicate them",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"preview": true,
 	"author": "Manfred Wuits <manfred@mavu.io>",
 	"repository": {
